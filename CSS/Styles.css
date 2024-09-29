@@ -71,6 +71,26 @@ ul li a:hover {
     transform: rotate(4deg);
 }
 
+/* Estilos para botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #bfe1f1;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.button:hover {
+    background-color: #0b1741;
+    box-shadow: 10px 10px 20px #000;
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
+}
+
 /* Estilos para las imágenes */
 img {
     border-radius: 8px;
